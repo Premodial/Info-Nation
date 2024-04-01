@@ -12,7 +12,7 @@ interface CountryCardProps {
 const CountryCard: React.FC<CountryCardProps> = ({ country, onSelect, isSelected }) => {
   return (
     <TouchableOpacity style={styles.card} onPress={() => onSelect(country)}>
-      <Text style={styles.text}>{country.name}</Text>
+      <Text style={styles.text}>{country?.name}</Text>
       {isSelected && <Entypo name="check" size={20} color="green" />}
     </TouchableOpacity>
   );

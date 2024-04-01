@@ -33,5 +33,6 @@ export const getCurrentWeather = async (lat: number, lng: number): Promise<Weath
     return response.data as WeatherApiResponse;
   } catch (error) {
     console.log(error);
+    return {} as WeatherApiResponse;
   }
 };

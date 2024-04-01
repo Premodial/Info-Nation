@@ -5,7 +5,7 @@ export const fetchCountries = async (): Promise<CountrySummary[]> => {
   try {
     const response = await axios.get(`${BASE_URL}all`);
     return response.data.map((country: any) => ({
-      name: country.name.official,
+      name: country?.name.official,
       code: country.cioc,
       flag: country.flags.png,
       lat: country.latlng[0],

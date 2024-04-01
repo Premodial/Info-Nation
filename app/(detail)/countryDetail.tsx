@@ -32,7 +32,7 @@ export default function CountryDetails() {
 
   return (
     <View style={styles.container}>
-      <WeatherDetails weather={weather} countryName={country.name.official} />
+      <WeatherDetails weather={weather} countryName={country?.name?.official} />
       <CountryDetailsView country={country} />
       <WeatherExtraDetailsView weather={weather}/>
     </View>
