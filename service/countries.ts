@@ -12,7 +12,7 @@ export const fetchCountries = async (): Promise<CountrySummary[]> => {
       long: country.latlng[1]
     }));
   } catch (error) {
-    console.error("Error fetching countries:");
+    console.log("Error fetching countries:");
     throw error;
   }
 };
@@ -22,7 +22,6 @@ export const fetchCountryDetails = async (countryCode: string): Promise<any> => 
     const response = await axios.get<any>(`${BASE_URL}alpha/${countryCode}`);
     return response.data[0];
   } catch (error) {
-    console.error("Error fetching country details:", error);
-    throw error;
+    console.log("Error fetching country details:", error);
   }
 };

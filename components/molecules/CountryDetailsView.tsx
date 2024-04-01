@@ -1,9 +1,10 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import { ColorScheme } from '@constants/colorScheme';
+
 interface Country {
-    [key: string]: any; // This allows any property with any value. Refine this as needed.
-  }
+    [key: string]: any;
+}
 const CountryDetailsView : React.FC<Country>= ({ country }) => {
   return (
     <View style={styles.detailsContainer}>

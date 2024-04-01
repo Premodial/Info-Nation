@@ -7,6 +7,9 @@
       "developmentClient": true,
       "distribution": "internal"
     },
+    "development-android": {
+      "distribution": "internal"
+    },
     "preview": {
       "distribution": "internal"
     },
