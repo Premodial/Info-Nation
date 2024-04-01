@@ -1,0 +1,22 @@
+export const ColorScheme = {
+    MagentaPrimary: '#DE1C61',
+    MagentaPrimaryLight: '#EF80A5',
+    GraphitePrimary: '#313131',
+    TangerineSecondary: '#ED8C1A',
+    whitePrimary: '#FFFFFF',
+    GreyWhite: '#FFF',
+    Black: '#000',
+    TealPrimary: '#00CCBA',
+    Background: '#FFF',
+    TextPrimary: '#313131',
+    TextSecondary: '#000',
+    BorderColor: '#313131',
+    ButtonPrimaryBackground: '#DE1C61',
+    ButtonPrimaryText: '#FFF',
+    ButtonSecondaryBackground: '#00CCBA',
+    ButtonSecondaryText: '#FFF',
+    Warning: '#ED8C1A',
+    InacticeGrey: '#DADADA',
+    success: '#B7FFC2',
+  };
+    
